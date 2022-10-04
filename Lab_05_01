@@ -1,0 +1,16 @@
+public class Main {
+    public static void main(String[] args) {}
+
+    final int DISCOUNT_PRICE=100;
+    int itemPrice=150;
+    int shippingCost= (int) (itemPrice*.02);
+    {System.out.println("Enter Item price");}
+        //input item price
+        { if(itemPrice>=DISCOUNT_PRICE);}
+    {
+        System.out.println("You get free shipping!");
+    }
+    { if (itemPrice<DISCOUNT_PRICE);}
+    {
+        System.out.println("Your shipping cost is "+shippingCost);
+    }
